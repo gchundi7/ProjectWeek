@@ -93,12 +93,9 @@ Volume(1) = {1};
 
 
 
-    
-
-
-
-
 # Illustrations
+
+
 
 <!-- Add pictures and links to videos that demonstrate what has been accomplished. -->
 
@@ -114,6 +111,30 @@ Figure 2: Graphical summary of the intended pipeline..
 
 <!-- If you developed any software, include link to the source code repository.
      If possible, also add links to sample data, and to any relevant publications. -->
+
+
+
+**Extension Creation:**
+<img width="1680" alt="Screenshot 2024-06-28 at 9 39 46 AM" src="https://github.com/NA-MIC/ProjectWeek/assets/56100029/82ec14a9-2007-4090-b768-9752ff3bbb82">
+
+
+**GMSH Integration and Volumetric Meshing Results:**
+<img width="1156" alt="Screenshot 2024-06-28 at 9 45 42 AM" src="https://github.com/NA-MIC/ProjectWeek/assets/56100029/bc33c9d8-3031-4be6-a6a9-7c3f2f4cb89e">
+
+**GMSH Advanced Feature Integration**
+<img width="1679" alt="Screenshot 2024-06-28 at 9 40 23 AM" src="https://github.com/NA-MIC/ProjectWeek/assets/56100029/6e2c98cf-6eb5-4094-af13-7556b401fb3f">
+<img width="662" alt="Screenshot 2024-06-28 at 10 04 22 AM" src="https://github.com/NA-MIC/ProjectWeek/assets/56100029/a70b126d-a0be-49d9-b488-53a506ca0aeb">
+
+**Next Steps:** 
+- Add mesh QA functionality and visualization of QA
+  - Find and implement poor mesh improvement techniques
+- Finish adding and debugging more advanced gmsh options
+  - Size fields, meshing algorithm choice, sampling rate, growth rate, additional command line input from user, maximum radius-edge ratio, etc. 
+- Integration into SegmentMesher
+- Assign bone properties based on interrogated CT volume, based on HU values, which will allow assignment of modulus values
+<img width="676" alt="Screenshot 2024-06-28 at 9 53 40 AM" src="https://github.com/NA-MIC/ProjectWeek/assets/56100029/6ffe1c74-a978-427d-9bf0-13c9891cd233">
+
+
 
 
 - [CT-based finite element simulating spatial bone damage accumulation predicts metastatic human vertebrae strength and stiffness](https://www.frontiersin.org/articles/10.3389/fbioe.2024.1424553/abstract)
